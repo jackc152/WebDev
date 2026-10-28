@@ -17,7 +17,7 @@ img {
 #bannerSeparator {
     height: 10px;
     border: 0px solid white;
-    background-image: linear-gradient(right, blue, white);
+    background-image: linear-gradient(to right, blue, white);
 }
 /* Challenge 7: For the HTML element with an id of "logo_container" align the text in the center */
 #logo_container {
@@ -35,7 +35,7 @@ div {
                 1) the size of the font to 24pt, 
                 2) family of font to "Arial", 
                 3) color of the background to rgb(0,0,255)  
-                4) color of the text to white for the  white
+                4) color of the text to white
 */
 #main_container {
     font-size: 24pt;
