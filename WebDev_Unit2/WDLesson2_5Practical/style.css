@@ -31,8 +31,8 @@
                  apply some other type of styling.
 */
 
-#secondGallery img {
-    filter: brightness(10px);
+#secondGallery img:hover {
+    filter: blur(10px);
 }
 /* Challenge 14: Change the transition for all elements to 1 second */
 
