@@ -15,8 +15,10 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="script.js"></script>
     <style>
-      /* Challenge 6: Using internal styling,  change the color of the web page.
-
+      /* Challenge 6: Using internal styling,  change the color of the web page. */
+      body { 
+        background-color: palegoldenrod;
+      }
       /* Further challenges are located in style.css  */
 
       /* Challenge 12: Create the other pages in the sitemap using index.html as the template. 
@@ -30,14 +32,21 @@
   </head>
   <body>
     <!-- Challenge 1: Create the navigation bar in support of the sitemap associated with the website. -->
-
+      <nav>
+         <a href="index.html"> Homepage</a>
+         <a href="html.html"> HTML </a>
+         <a href="css.html"> CSS </a>
+         <a href="javascript.html" > JavaScript </a>
+      </nav>
     <!-- Challenge 2: Create a banner container with heading of "Web Development".  Give it a class of "banner".-->
 
     <div class="main">
+      <h1 class="banner" > Web Development Homepage</h1>
       <!-- Challenge 3: Add the image of webicons.png-->
+       <img style="height: 500px; width: 500px;" src="webicons.png" >
       <!-- Challenge 4: Using inline styling, resize the above image appropriately -->
       <!-- Challenge 5: Write a paragraph describing web development.  Discuss the purpose of HTML, CSS and JavaScript -->
-
+      <p> Web development is a course about creating a website or web page with the use of three languages, HTML a markup language, CSS a styling language, and JavaScript a coding language. These are the three important aspects of creating a website where HTML lays out the elements, CSS styles them, and finally JavaScript lets you program a webpage. </p>
     </div>
 
   </body>
