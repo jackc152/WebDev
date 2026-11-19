@@ -37,6 +37,7 @@ nav a:hover{
 #links {
    flex-direction: column;
    border: solid 1px black;
+   box-shadow: 1px 1px black;
    flex: .75;
 }
 
@@ -44,6 +45,12 @@ nav a:hover{
    color:black;
    flex: 25px 0 0;
    text-decoration: none;
+   padding: 5%;
+}
+
+#links a:hover {
+   background-color: gray;
+   transition: 1s;
 }
 
 #main, #sample {
